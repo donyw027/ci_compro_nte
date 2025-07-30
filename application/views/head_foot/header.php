@@ -13,10 +13,10 @@
 	<!-- Title -->
 	<title><?= $title; ?></title>
 
-	
+
 
 	<!-- Favicon -->
-	<link rel="icon" href="<?= base_url('assets/img/favicon.png') ?>">
+	<link rel="icon" href="<?= base_url('assets/img/Logo4.png') ?>">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
@@ -47,52 +47,53 @@
 
 
 	<style>
-  .capacity-section {
-    padding: 5px 5px;
-    /* background-color: #f9f9f9; */
-  }
+		.capacity-section {
+			padding: 5px 5px;
+			/* background-color: #f9f9f9; */
+		}
 
-  .section-title {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #fff;
-    font-weight: bold;
-  }
+		.section-title {
+			font-size: 2em;
+			margin-bottom: 20px;
+			color: #fff;
+			font-weight: bold;
+		}
 
-  .capacity-box {
-    background: white;
-    padding: 15px 15px;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-  }
+		.capacity-box {
+			background: white;
+			padding: 15px 15px;
+			border-radius: 12px;
+			box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+			transition: transform 0.3s ease;
+		}
 
-  .capacity-box:hover {
-    transform: translateY(-8px);
-  }
+		.capacity-box:hover {
+			transform: translateY(-8px);
+		}
 
-  .capacity-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #0ec9d2;
-    font-weight: 600;
-  }
+		.capacity-title {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+			color: #174c70;
+			font-weight: 600;
+		}
 
-  .capacity-number {
-    font-size: 1.8em;
-    font-weight: bold;
-    color: #222;
-  }
+		.capacity-number {
+			font-size: 1.8em;
+			font-weight: bold;
+			color: #222;
+		}
 
-  @media (max-width: 767px) {
-    .capacity-box {
-      padding: 20px 10px;
-    }
-    .capacity-number {
-      font-size: 1.5em;
-    }
-  }
-</style>
+		@media (max-width: 767px) {
+			.capacity-box {
+				padding: 20px 10px;
+			}
+
+			.capacity-number {
+				font-size: 1.5em;
+			}
+		}
+	</style>
 
 </head>
 
@@ -148,11 +149,11 @@
 							<li>
 								<div class="dropdown">
 									<button class="btn  btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-									<i style="color: white;" class="fa fa-language"></i>ID
+										<i style="color: white;" class="fa fa-language"></i>ID
 									</button>
 									<div class="dropdown-menu">
-									<a class="dropdown-item" href="<?= base_url('welcome/change_language/id'); ?>">ID</a>
-									<a class="dropdown-item" href="<?= base_url('welcome/change_language/en'); ?>">EN</a>
+										<a class="dropdown-item" href="<?= base_url('welcome/change_language/id'); ?>">ID</a>
+										<a class="dropdown-item" href="<?= base_url('welcome/change_language/en'); ?>">EN</a>
 									</div>
 								</div>
 							</li>
@@ -172,14 +173,14 @@
 						<div class="col-lg-3 col-md-3 col-12">
 							<!-- Start Logo -->
 							<div class="logo">
-								<a href="<?= site_url('home') ?>"><img src="<?= base_url('assets/img/akt.png"') ?>" alt="#"></a>
+								<a href="<?= site_url('home') ?>"><img src="<?= base_url('assets/img/Logo3.png"') ?>" alt="#"></a>
 							</div>
 							<!-- End Logo -->
 							<!-- Mobile Nav -->
 							<div class="mobile-nav"></div>
 							<!-- End Mobile Nav -->
 						</div>
-						<div class="col-lg-7 col-md-9 col-12">
+						<div class="col-lg-9 col-md-9 col-12">
 							<!-- Main Menu -->
 							<div class="main-menu">
 								<nav class="navigation">
@@ -193,6 +194,15 @@
 										<li><a href="<?= site_url('about') ?>"><?= $this->lang->line('about') ?> </a></li>
 										<li><a href="<?= site_url('career') ?>"><?= $this->lang->line('career') ?> </a></li>
 										<li><a href="<?= site_url('contact') ?>"><?= $this->lang->line('contact') ?> </a></li>
+
+										<!-- <li><a href="<?= site_url('contact') ?>">Home </a></li>
+										<li><a href="<?= site_url('contact') ?>">About Us </a></li>
+										<li><a href="<?= site_url('contact') ?>">Products </a></li>
+										<li><a href="<?= site_url('contact') ?>">Services </a></li>
+										<li><a href="<?= site_url('contact') ?>">Galery </a></li>
+										<li><a href="<?= site_url('contact') ?>">Article </a></li>
+										<li><a href="<?= site_url('contact') ?>">Contact Us </a></li> -->
+
 									</ul>
 								</nav>
 							</div>

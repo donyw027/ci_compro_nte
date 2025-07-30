@@ -25,7 +25,7 @@
 
 
 				<div>
-					<i class=""><img src="<?= base_url('assets/img/aboutpic.jpg') ?>" alt="" style="border-radius: 10px; height: 600px;"></i>
+					<i class=""><img src="<?= base_url('assets/img/aboutpic.png') ?>" alt="" style="border-radius: 10px; height: 600px;"></i>
 				</div>
 
 
@@ -36,12 +36,12 @@
 			<div class="col-lg-8 col-md-12 col-12">
 				<div class="col-lg-12">
 					<div class="section- title">
-						
+
 						<h2><?= $this->lang->line('about_title') ?> </h2>
 						<img src="<?= base_url('assets/img/section-img.png') ?>" alt="#">
 						<p style="text-align: justify;">
 
-						
+
 
 							<?= $this->lang->line('about_content1') ?> <br>
 
@@ -98,7 +98,7 @@
 
 				<h2 class=""><br><br><?= $this->lang->line('PE_title') ?></h2>
 				<p><?= $this->lang->line('A_PE_desc') ?></p>
-				<img src="<?= base_url('assets/img/map2.jpg') ?>" alt="#">
+				<img src="<?= base_url('assets/img/bg1.png') ?>" alt="#">
 			</div>
 
 

@@ -53,7 +53,7 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
-		$data['title'] = 'AKT Indonesia';
+		$data['title'] = 'Nusantara Tridaya Exporindo';
 
 		// Load layout
 		$this->load->view('head_foot/header', $data);
@@ -63,7 +63,7 @@ class Welcome extends CI_Controller
 
 	public function home()
 	{
-		$data['title'] = 'AKT Indonesia';
+		$data['title'] = 'Nusantara Tridaya Exporindo';
 
 		// Load layout
 		$this->load->view('head_foot/header', $data);
@@ -73,7 +73,7 @@ class Welcome extends CI_Controller
 
 	public function about()
 	{
-		$data['title'] = 'AKT Indonesia | About';
+		$data['title'] = 'Nusantara Tridaya Exporindo | About';
 
 		// Load layout
 		$this->load->view('head_foot/header', $data);
@@ -84,7 +84,7 @@ class Welcome extends CI_Controller
 	public function career()
 	{
 		$this->load->helper('text');
-		$data['title'] = 'AKT Indonesia | Career';
+		$data['title'] = 'Nusantara Tridaya Exporindo | Career';
 		$data['loker'] = $this->admin->get('loker');
 
 		// Load layout
@@ -95,7 +95,7 @@ class Welcome extends CI_Controller
 
 	public function contact()
 	{
-		$data['title'] = 'AKT Indonesia | Contact';
+		$data['title'] = 'Nusantara Tridaya Exporindo | Contact';
 
 		// Load layout
 		$this->load->view('head_foot/header', $data);
@@ -105,7 +105,7 @@ class Welcome extends CI_Controller
 
 	// public function applyjob()
 	// {
-	// 	$data['title'] = 'AKT Indonesia | Form Aplikasi';
+	// 	$data['title'] = 'Nusantara Tridaya Exporindo | Form Aplikasi';
 
 	// 	// Load layout
 	// 	$this->load->view('head_foot/header', $data);
@@ -204,7 +204,7 @@ class Welcome extends CI_Controller
 
 
 		if ($this->form_validation->run() == false) {
-			$data['title'] = 'AKT Indonesia | Form Aplikasi';
+			$data['title'] = 'Nusantara Tridaya Exporindo | Form Aplikasi';
 			$data['loker'] = $this->admin->get('loker', ['id' => $id_loker]);
 
 			$this->load->view('head_foot/header', $data);

@@ -6,9 +6,9 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-12">
 					<div class="single-footer">
-						<img src="<?= base_url('assets/img/AKT.png') ?>" alt="" width="60%"><br><br>
-						<img src="<?= base_url('assets/img/apkb.png') ?>" alt="" width="60%"><br><br>
-						<img src="<?= base_url('assets/img/SVLK Logo.png') ?>" alt="" width="60%">
+						<img src="<?= base_url('assets/img/logo4.png') ?>" alt="" width="60%"><br><br>
+						<!-- <img src="<?= base_url('assets/img/apkb.png') ?>" alt="" width="60%"><br><br>
+						<img src="<?= base_url('assets/img/SVLK Logo.png') ?>" alt="" width="60%"> -->
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-6">
@@ -128,14 +128,14 @@
 </script>
 
 <script>
-function formatNumberInput(id) {
-	document.getElementById(id).addEventListener('input', function(e) {
-		let value = this.value.replace(/\D/g, '');
-		if (value === '') return this.value = '';
-		this.value = new Intl.NumberFormat('id-ID').format(value);
-	});
-}
+	function formatNumberInput(id) {
+		document.getElementById(id).addEventListener('input', function(e) {
+			let value = this.value.replace(/\D/g, '');
+			if (value === '') return this.value = '';
+			this.value = new Intl.NumberFormat('id-ID').format(value);
+		});
+	}
 
-formatNumberInput('salary_ekspetasi');
-formatNumberInput('last_salary');
+	formatNumberInput('salary_ekspetasi');
+	formatNumberInput('last_salary');
 </script>
