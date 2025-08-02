@@ -57,7 +57,10 @@ $route['translate_uri_dashes'] = FALSE;
 // Custom routes
 $route['home']  = 'welcome/home';
 $route['about'] = 'welcome/about';
-$route['career'] = 'welcome/career';
+$route['layanan'] = 'welcome/layanan';
+$route['produk'] = 'welcome/produk';
+$route['galery'] = 'welcome/galery';
+$route['blog'] = 'welcome/blog';
 $route['contact'] = 'welcome/contact';
 $route['login'] = 'auth/index';
 $route['dashboard'] = 'auth/index';

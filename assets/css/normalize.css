@@ -243,9 +243,14 @@ a,button{
 a:hover{
 	text-decoration:none;
 }
+
+
+
 /*================================================
 Preloader Area CSS
 =================================================*/
+
+
 .preloader {
   position: fixed;
   left: 0;

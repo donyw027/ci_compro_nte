@@ -624,6 +624,7 @@ Version:	1.1
 	margin-left: -40px;
 	height:80px;
 	width: 80px;
+	
 	line-height: 80px;
 }
 .Feautes .single-features::before {
@@ -634,6 +635,7 @@ Version:	1.1
 	position: relative;
 	padding:0px;
 	margin: 15px 0;
+	
 }
 .Feautes .single-features h3 {
 	padding-top: 105px;

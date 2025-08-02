@@ -73,7 +73,7 @@ class Welcome extends CI_Controller
 
 	public function about()
 	{
-		$data['title'] = 'Nusantara Tridaya Exporindo | About';
+		$data['title'] = 'Tentang | Nusantara Tridaya Exporindo';
 
 		// Load layout
 		$this->load->view('head_foot/header', $data);
@@ -81,21 +81,53 @@ class Welcome extends CI_Controller
 		$this->load->view('head_foot/footer');
 	}
 
-	public function career()
+	public function layanan()
+	{
+		$data['title'] = 'Layanan | Nusantara Tridaya Exporindo ';
+
+		// Load layout
+		$this->load->view('head_foot/header', $data);
+		$this->load->view('layanan');
+		$this->load->view('head_foot/footer');
+	}
+
+	public function produk()
 	{
 		$this->load->helper('text');
-		$data['title'] = 'Nusantara Tridaya Exporindo | Career';
+		$data['title'] = 'Produk | Nusantara Tridaya Exporindo';
 		$data['loker'] = $this->admin->get('loker');
 
 		// Load layout
 		$this->load->view('head_foot/header', $data);
-		$this->load->view('career');
+		$this->load->view('produk');
+		$this->load->view('head_foot/footer');
+	}
+
+	public function galery()
+	{
+		$this->load->helper('text');
+		$data['title'] = 'Galery | Nusantara Tridaya Exporindo';
+		$data['loker'] = $this->admin->get('loker');
+
+		// Load layout
+		$this->load->view('head_foot/header', $data);
+		$this->load->view('galery');
+		$this->load->view('head_foot/footer');
+	}
+
+	public function blog()
+	{
+		$data['title'] = 'Blog | Nusantara Tridaya Exporindo';
+
+		// Load layout
+		$this->load->view('head_foot/header', $data);
+		$this->load->view('blog');
 		$this->load->view('head_foot/footer');
 	}
 
 	public function contact()
 	{
-		$data['title'] = 'Nusantara Tridaya Exporindo | Contact';
+		$data['title'] = 'Kontak | Nusantara Tridaya Exporindo ';
 
 		// Load layout
 		$this->load->view('head_foot/header', $data);

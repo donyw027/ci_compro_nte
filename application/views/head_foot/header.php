@@ -45,8 +45,16 @@
 	<link rel="stylesheet" href="<?= base_url('assets/style.css') ?>">
 	<link rel="stylesheet" href="<?= base_url('assets/css/responsive.css') ?>">
 
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
 
 	<style>
+		body {
+			font-family: 'Poppins', sans-serif;
+		}
+
 		.capacity-section {
 			padding: 5px 5px;
 			/* background-color: #f9f9f9; */
@@ -97,23 +105,36 @@
 
 </head>
 
+<!-- Preloader -->
+<div id="preloader-logo">
+	<div class="logo-wrapper">
+		<img src="<?= base_url('assets/img/logo4.png') ?>" alt="Loading..." />
+	</div>
+</div>
+
+
 <body>
 
 	<!-- Preloader -->
-	<div class="preloader">
+	<!-- <div class="preloader">
 		<div class="loader">
 			<div class="loader-outter"></div>
-			<div class="loader-inner"></div>
+			<div class="loader-inner"></div> -->
+	<!-- <img src="<?= base_url('assets/img/logo.jpeg') ?>" alt="#"> -->
 
-			<div class="indicator1">
+
+
+	<!-- <div class="indicator">
 				<svg width="16px" height="12px">
 					<polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
 					<polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
 				</svg>
-			</div>
-		</div>
-	</div>
-	<!-- End Preloader -->
+			</div> -->
+	<!-- </div>
+	</div> -->
+
+
+
 
 	<!-- <ul class="pro-features">
 			<a class="get-pro" href="#">Career</a>
@@ -144,8 +165,8 @@
 					<div class="col-lg-6 col-md-7 col-12">
 						<!-- Top Contact -->
 						<ul class="top-contact">
-							<li><i class="fa fa-phone"></i>+(0343) 4505082</li>
-							<li><i class="fa fa-envelope"></i><a href="mailto:info@akt-id.com">info@akt-id.com</a></li>
+							<!-- <li><i class="fa fa-phone"></i>+(0343) 4505082</li> -->
+							<li><i class="fa fa-envelope"></i><a href="mailto:info@akt-id.com">info@tba</a></li>
 							<li>
 								<div class="dropdown">
 									<button class="btn  btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
@@ -192,17 +213,13 @@
 											</li> -->
 										<li><a href="<?= site_url('home') ?>"><?= $this->lang->line('home') ?> </a></li>
 										<li><a href="<?= site_url('about') ?>"><?= $this->lang->line('about') ?> </a></li>
-										<li><a href="<?= site_url('career') ?>"><?= $this->lang->line('career') ?> </a></li>
+										<li><a href="<?= site_url('produk') ?>">Produk</a></li>
+										<li><a href="<?= site_url('layanan') ?>">Layanan </a></li>
+										<li><a href="<?= site_url('galery') ?>">Galery </a></li>
+										<li><a href="<?= site_url('blog') ?>">Blog</a></li>
+
+
 										<li><a href="<?= site_url('contact') ?>"><?= $this->lang->line('contact') ?> </a></li>
-
-										<!-- <li><a href="<?= site_url('contact') ?>">Home </a></li>
-										<li><a href="<?= site_url('contact') ?>">About Us </a></li>
-										<li><a href="<?= site_url('contact') ?>">Products </a></li>
-										<li><a href="<?= site_url('contact') ?>">Services </a></li>
-										<li><a href="<?= site_url('contact') ?>">Galery </a></li>
-										<li><a href="<?= site_url('contact') ?>">Article </a></li>
-										<li><a href="<?= site_url('contact') ?>">Contact Us </a></li> -->
-
 									</ul>
 								</nav>
 							</div>

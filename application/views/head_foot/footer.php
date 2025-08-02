@@ -14,14 +14,14 @@
 				<div class="col-lg-4 col-md-6 col-6">
 					<div class="single-footer">
 						<h2><?= $this->lang->line('f_about_title') ?></h2>
-						<p><?= $this->lang->line('f_about_desc') ?></p>
+						<p>Perusahaan trading ekspor yang berbasis di Indonesia, yang bergerak dalam perdagangan komoditas unggulan Indonesia ke pasar internasional.</p>
 						<!-- Social -->
 						<ul class="social">
-							<!-- <li><a href=""><i class="icofont-facebook"></i></a></li>
-									<li><a href=""><i class="icofont-google-plus"></i></a></li>
-									<li><a href=""><i class="icofont-twitter"></i></a></li> -->
-							<li><a href="mailto:info@akt-id.com"><i class="icofont-email"></i></a></li>
-							<li><a target="_blank" href="https://id.pinterest.com/pt_akt_indonesia/"><i class="icofont-pinterest"></i></a></li>
+							<li><a href=""><i class="icofont-facebook"></i></a></li>
+							<!-- <li><a href=""><i class="icofont-google-plus"></i></a></li> -->
+							<!-- <li><a href=""><i class="icofont-twitter"></i></a></li> -->
+							<!-- <li><a href="mailto:info@akt-id.com"><i class="icofont-email"></i></a></li> -->
+							<!-- <li><a target="_blank" href="https://id.pinterest.com/pt_akt_indonesia/"><i class="icofont-pinterest"></i></a></li> -->
 							<li><a target="_blank" href="https://www.linkedin.com/company/aktindonesia/"><i class="icofont-linkedin"></i></a></li>
 						</ul>
 						<!-- End Social -->
@@ -30,12 +30,14 @@
 
 				<div class="col-lg-4 col-md-6 col-6">
 					<div class="single-footer">
-						<h2><?= $this->lang->line('open_hours') ?></h2>
-						<p><?= $this->lang->line('open_hours_desc') ?></p>
-						<ul class="time-sidual">
-							<li class="day"><?= $this->lang->line('day1') ?><span>07.00-16.00</span></li>
-							<li class="day"><?= $this->lang->line('day2') ?><span><?= $this->lang->line('open2') ?></span></li>
-						</ul>
+						<h2>Kontak Kami</h2>
+						<!-- <p><?= $this->lang->line('open_hours_desc') ?></p><br> -->
+
+						<p class="mb-0">Perumahan Grianan Agung Blok C5-07<br>Randuagung, Singosari, Kab. Malang 65153</p><br>
+						<p>Email : info@tba.com</p>
+						<p>WhatsApp : +62 851-6355-1120</p>
+
+
 					</div>
 				</div>
 
@@ -49,7 +51,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-12">
 					<div class="copyright-content">
-						<p>© Copyright 2025 | AKT Indonesia </p>
+						<p>© Copyright 2025 | Nusantara Tridaya Eksporindo </p>
 
 					</div>
 				</div>
@@ -102,6 +104,23 @@
 <script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
 <!-- Main JS -->
 <script src="<?= base_url('assets/js/main.js') ?>"></script>
+
+<script>
+	window.addEventListener("load", function() {
+		setTimeout(function() {
+			const preloader = document.getElementById("preloader-logo");
+			preloader.style.opacity = "0";
+			preloader.style.visibility = "hidden";
+			preloader.style.transition = "all 0.4s ease";
+		}, 500); // delay 500ms
+	});
+</script>
+
+
+
+
+
+
 </body>
 
 </html>

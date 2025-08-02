@@ -9,31 +9,36 @@
 				<div class="row">
 					<div class="col-lg-7">
 						<div class="text">
-							<!-- <h1> <span>Expertise and Quality in every musical instrument</span></h1> -->
-							<h1> <span> <?= $this->lang->line('slider1_title') ?> </span></h1>
-							<p style="color: white;"><?= $this->lang->line('slider1_subtitle') ?></p>
-							<!-- <div class="button">
-										<a href="#" class="btn">Get Appointment</a>
-										<a href="#" class="btn primary">Learn More</a>
-									</div> -->
+							<h1>
+								<span style="color: white; text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"> EMPOWERING THE WORLD WITH THE BEST OF NUSANTARA </span><br><br>
+								<span style="color: white; text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"> We Trade. We Deliver. We Build Trust. </span>
+							</h1>
+							<div class="button">
+								<a href="#" class="btn primary">Lihat Produk</a>
+								<a href="#" class="btn primary">Hubungi Kami</a>
+								<a href="#" class="btn primary">Kirim Inquiry</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Single Slider -->
-		<!-- Start Single Slider -->
 		<div class="single-slider" style="background-image:url('<?= base_url('assets/img/slider2.png') ?>">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7">
 						<div class="text">
-							<h1><span><?= $this->lang->line('slider2_title') ?></span></h1>
-							<p style="color: white;"><?= $this->lang->line('slider2_subtitle') ?></p>
-							<!-- <div class="button">
-										<a href="#" class="btn">Get Appointment</a>
-										<a href="#" class="btn primary">Learn More</a>
-									</div> -->
+							<!-- <h1> <span>Expertise and Quality in every musical instrument</span></h1> -->
+							<h1>
+								<span style="color: white;"> EMPOWERING THE WORLD WITH THE BEST OF NUSANTARA </span><br><br>
+								<span style="color: white;"> We Trade. We Deliver. We Build Trust. </span>
+							</h1>
+							<!-- <p style="color: white;"><?= $this->lang->line('slider1_subtitle') ?></p> -->
+							<div class="button">
+								<a href="#" class="btn primary">Lihat Produk</a>
+								<a href="#" class="btn primary">Hubungi Kami</a>
+								<a href="#" class="btn primary">Kirim Inquiry</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -44,520 +49,217 @@
 				<div class="row">
 					<div class="col-lg-7">
 						<div class="text">
-							<h1><span><?= $this->lang->line('slider3_title') ?></span></h1>
-							<p style="color: white;"><?= $this->lang->line('slider3_subtitle') ?></p>
-							<!-- <div class="button">
-										<a href="#" class="btn">Get Appointment</a>
-										<a href="#" class="btn primary">Learn More</a>
-									</div> -->
+							<!-- <h1> <span>Expertise and Quality in every musical instrument</span></h1> -->
+							<h1>
+								<span style="color: white;"> EMPOWERING THE WORLD WITH THE BEST OF NUSANTARA </span><br><br>
+								<span style="color: white;"> We Trade. We Deliver. We Build Trust. </span>
+							</h1>
+							<!-- <p style="color: white;"><?= $this->lang->line('slider1_subtitle') ?></p> -->
+							<div class="button">
+								<a href="#" class="btn primary">Lihat Produk</a>
+								<a href="#" class="btn primary">Hubungi Kami</a>
+								<a href="#" class="btn primary">Kirim Inquiry</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Single Slider -->
 
 	</div>
 </section>
-<!--/ End Slider Area -->
-
 
 <br><br>
-<!-- Start Feautes -->
-<section class="Feautes section">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<h2><?= $this->lang->line('about_title') ?></h2>
-					<img src="<?= base_url('assets/img/section-img.png') ?>" alt="#">
-					<p><?= $this->lang->line('h_about_content') ?></p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-12">
-				<!-- Start Single features -->
-				<div class="single-features">
-					<div class="signle-icon">
-						<i class="icofont icofont-ruler"></i>
-					</div>
-					<h3><?= $this->lang->line('about_sub1') ?></h3>
-					<p><?= $this->lang->line('about_sub_detail1') ?></p>
-				</div>
-				<!-- End Single features -->
-			</div>
-			<div class="col-lg-4 col-12">
-				<!-- Start Single features -->
-				<div class="single-features">
-					<div class="signle-icon">
-						<i class="icofont icofont-shield"></i>
-					</div>
-					<h3><?= $this->lang->line('about_sub2') ?></h3>
-					<p><?= $this->lang->line('about_sub_detail2') ?></p>
-				</div>
-				<!-- End Single features -->
-			</div>
-			<div class="col-lg-4 col-12">
-				<!-- Start Single features -->
-				<div class="single-features last">
-					<div class="signle-icon">
-						<i class="icofont icofont-user"></i>
-					</div>
-					<h3><?= $this->lang->line('about_sub3') ?></h3>
-					<p><?= $this->lang->line('about_sub_detail3') ?></p>
-				</div>
-				<!-- End Single features -->
-			</div>
-		</div>
-	</div>
-</section>
-<!--/ End Feautes -->
 
-<section class="portfolio section">
+<section class="features-section py-5 bg-light">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<h2>We Maintain Cleanliness Rules Inside Our Hospital</h2>
-					<img src="img/section-img.png" alt="#">
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-				</div>
+		<!-- Judul Section -->
+		<div class="row justify-content-center text-center mb-5">
+			<div class="col-lg-8">
+				<h2 class="text-uppercase fw-bold ">Nusantara Tridaya Eksporindo</h2>
+				<p class="text-muted">
+					Perusahaan trading ekspor berbasis di Indonesia, bergerak dalam perdagangan komoditas unggulan ke pasar internasional. Kami menyediakan produk berkualitas tinggi, layanan profesional, dan solusi ekspor yang efisien untuk buyer global.
+				</p>
+				<h4 class="fw-semibold mt-4 text-dark">Produk Unggulan Kami</h4>
 			</div>
 		</div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12 col-12">
-				<div class="owl-carousel portfolio-slider">
-					<div class="single-pf">
-						<img src="img/pf1.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
+
+		<!-- Card Produk -->
+		<div class="row g-4">
+			<!-- Agrikultur -->
+			<div class="col-md-4">
+				<div class="card h-100 border-0 shadow-sm text-center p-4 rounded">
+					<div class="feature-icon text-primary mb-3">
+						<i class="icofont-plant text-primary" style="font-size: 36px;"></i>
 					</div>
-					<div class="single-pf">
-						<img src="img/pf2.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
+					<h5 class="fw-bold">Agrikultur</h5>
+					<p class="text-muted small">Kelapa, arang briket, rempah-rempah, kopi, kakao, dll.</p>
+				</div>
+			</div>
+
+			<!-- Makanan & Minuman -->
+			<div class="col-md-4">
+				<div class="card h-100 border-0 shadow-sm text-center p-4 rounded">
+					<div class="feature-icon text-success mb-3">
+						<i class="icofont-food-cart text-success" style="font-size: 36px;"></i>
 					</div>
-					<div class="single-pf">
-						<img src="img/pf3.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
+					<h5 class="fw-bold">Makanan & Minuman</h5>
+					<p class="text-muted small">Keripik, makanan ringan, produk olahan UMKM.</p>
+				</div>
+			</div>
+
+			<!-- Furnitur & Kerajinan -->
+			<div class="col-md-4">
+				<div class="card h-100 border-0 shadow-sm text-center p-4 rounded">
+					<div class="feature-icon text-warning mb-3">
+						<i class="icofont-book text-warning" style="font-size: 36px;"></i>
 					</div>
-					<div class="single-pf">
-						<img src="img/pf4.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
-					</div>
-					<div class="single-pf">
-						<img src="img/pf1.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
-					</div>
-					<div class="single-pf">
-						<img src="img/pf2.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
-					</div>
-					<div class="single-pf">
-						<img src="img/pf3.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
-					</div>
-					<div class="single-pf">
-						<img src="img/pf4.jpg" alt="#">
-						<a href="portfolio-details.html" class="btn">View Details</a>
-					</div>
+					<h5 class="fw-bold">Furnitur & Kerajinan</h5>
+					<p class="text-muted small">Rotan, bambu, kayu, produk kerajinan tangan.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!--/ End portfolio -->
 
-<!-- Start service -->
-<section class="services section">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<h2>We Offer Different Services To Improve Your Health</h2>
-					<img src="img/section-img.png" alt="#">
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Start Single Service -->
-				<div class="single-service">
-					<i class="icofont icofont-prescription"></i>
-					<h4><a href="service-details.html">General Treatment</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
-				</div>
-				<!-- End Single Service -->
-			</div>
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Start Single Service -->
-				<div class="single-service">
-					<i class="icofont icofont-tooth"></i>
-					<h4><a href="service-details.html">Teeth Whitening</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
-				</div>
-				<!-- End Single Service -->
-			</div>
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Start Single Service -->
-				<div class="single-service">
-					<i class="icofont icofont-heart-alt"></i>
-					<h4><a href="service-details.html">Heart Surgery</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
-				</div>
-				<!-- End Single Service -->
-			</div>
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Start Single Service -->
-				<div class="single-service">
-					<i class="icofont icofont-listening"></i>
-					<h4><a href="service-details.html">Ear Treatment</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
-				</div>
-				<!-- End Single Service -->
-			</div>
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Start Single Service -->
-				<div class="single-service">
-					<i class="icofont icofont-eye-alt"></i>
-					<h4><a href="service-details.html">Vision Problems</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
-				</div>
-				<!-- End Single Service -->
-			</div>
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Start Single Service -->
-				<div class="single-service">
-					<i class="icofont icofont-blood"></i>
-					<h4><a href="service-details.html">Blood Transfusion</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>
-				</div>
-				<!-- End Single Service -->
-			</div>
-		</div>
-	</div>
-</section>
-<!--/ End service -->
 
-<!-- Start Fun-facts -->
 <div id="fun-facts" class="fun-facts section overlay">
 	<div class="container">
-		<div class="row">
+		<div class="row justify-content-center text-center mb-4">
+			<div class="col-lg-8">
+				<div class="mb-3">
+					<i class="icofont-handshake-deal " style="font-size: 48px; color: white;"></i>
+				</div>
+				<h2 style="color: white;" class="fw-bold">Kenapa Memilih Kami</h2>
+				<p style="color: white;" class="text small">Kami memberikan lebih dari sekadar produk ekspor — kami memberikan solusi, komitmen, dan kepercayaan.</p>
+			</div>
+		</div>
 
-			<div class="col-lg-12 col-md-6 col-12">
-				<!-- Start Single Fun -->
-				<div class="single-fun">
-					<!-- <i class="icofont icofont-book"></i> -->
-					<div class="capacity-section text-center">
-						<h1 class="section-title"><?= $this->lang->line('employe_title') ?></h1>
-						<div class="row justify-content-center">
+		<div class="row justify-content-center">
+			<div class="col-lg-10">
+				<div class="card border-0 shadow-sm rounded p-4">
+					<div class="d-flex align-items-start">
 
-							<!-- Item -->
-							<div class="col-lg-3 col-10 mb-4">
-								<div class="capacity-box">
-									<div class="capacity-title"><?= $this->lang->line('employes') ?></div>
-									<div class="capacity-number" data-target="200" style="display:inline-block;">±</div>
-									<div style="display:inline-block;font-size: 16pt;"><b>Sampai</b></div>
-									<div class="capacity-number" data-target="500" style="display:inline-block;">±</div>
-								</div>
-							</div>
-
-							<!-- Item -->
-
-
+						<div>
+							<ul class="list-unstyled mb-0">
+								<li class="mb-2">✅ Produk asli Indonesia berkualitas</li>
+								<li class="mb-2">✅ Proses cepat & transparan</li>
+								<li class="mb-2">✅ Tim profesional dan berpengalaman</li>
+								<li class="mb-2">✅ Layanan bilingual (Inggris & Indonesia)</li>
+								<li class="mb-2">✅ Harga kompetitif dan fleksibel</li>
+							</ul>
 						</div>
 					</div>
 				</div>
-				<!-- End Single Fun -->
 			</div>
-
-			<div class="col-lg-12 col-md-6 col-12">
-				<!-- Start Single Fun -->
-				<div class="single-fun">
-					<!-- <i class="icofont icofont-book"></i> -->
-					<div class="capacity-section text-center">
-						<h1 class="section-title"><?= $this->lang->line('our_production') ?></h1>
-						<div class="row justify-content-center">
-
-							<!-- Item -->
-							<div class="col-lg-2 col-6 mb-4">
-								<div class="capacity-box">
-									<div class="capacity-title"><?= $this->lang->line('castanets') ?></div>
-									<div class="capacity-number" data-target="25000">±</div>
-								</div>
-							</div>
-
-							<!-- Item -->
-							<div class="col-lg-2 col-6 mb-4">
-								<div class="capacity-box">
-									<div class="capacity-title"><?= $this->lang->line('kalimba') ?></div>
-									<div class="capacity-number" data-target="25000">±</div>
-								</div>
-							</div>
-
-							<!-- Item -->
-							<div class="col-lg-2 col-6 mb-4">
-								<div class="capacity-box">
-									<div class="capacity-title"><?= $this->lang->line('cajon') ?></div>
-									<div class="capacity-number" data-target="25000">±</div>
-								</div>
-							</div>
-
-							<!-- Item -->
-							<div class="col-lg-2 col-6 mb-4">
-								<div class="capacity-box">
-									<div class="capacity-title"><?= $this->lang->line('guitar') ?></div>
-									<div class="capacity-number" data-target="800000">±</div>
-								</div>
-							</div>
-
-							<!-- Item -->
-							<div class="col-lg-2 col-6 mb-4">
-								<div class="capacity-box">
-									<div class="capacity-title"><?= $this->lang->line('ukuleles') ?></div>
-									<div class="capacity-number" data-target="800000">±</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<!-- End Single Fun -->
-			</div>
-
 		</div>
 	</div>
+
 </div>
-<!--/ End Fun-facts -->
 
-<!-- Start Blog Area -->
-<section class="blog section" id="blog">
+<section class="services py-5 bg-light">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<h2>Keep up with Our Most Recent Medical News.</h2>
-					<img src="img/section-img.png" alt="#">
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-				</div>
-			</div>
+		<div class="text-center mb-5">
+			<h2 style="color: black;" class="section-title text-uppercase">Layanan Kami</h2>
+			<p class="text-muted">Kami menyediakan solusi ekspor menyeluruh — dari sourcing hingga pengiriman.</p>
 		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Single Blog -->
-				<div class="single-news">
-					<div class="news-head">
-						<img src="img/blog1.jpg" alt="#">
+
+		<div class="row g-4">
+			<!-- Layanan Item -->
+			<div class="col-md-6 col-lg-4">
+				<div class="card service-card h-100 border-0 shadow-sm p-4">
+					<div class="service-icon mb-3">
+						<i class="icofont-search-document text-primary" style="font-size: 36px;"></i>
 					</div>
-					<div class="news-body">
-						<div class="news-content">
-							<div class="date">22 Aug, 2020</div>
-							<h2><a href="blog-single.html">We have annnocuced our new product.</a></h2>
-							<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-						</div>
-					</div>
+					<h5 class="mb-3">Sourcing Produk</h5>
+
 				</div>
-				<!-- End Single Blog -->
 			</div>
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Single Blog -->
-				<div class="single-news">
-					<div class="news-head">
-						<img src="img/blog2.jpg" alt="#">
+
+			<!-- Pemeriksaan Kualitas -->
+			<div class="col-md-6 col-lg-4">
+				<div class="card service-card h-100 border-0 shadow-sm p-4">
+					<div class="service-icon mb-3">
+						<i class="icofont-verification-check text-success" style="font-size: 36px;"></i>
 					</div>
-					<div class="news-body">
-						<div class="news-content">
-							<div class="date">15 Jul, 2020</div>
-							<h2><a href="blog-single.html">Top five way for solving teeth problems.</a></h2>
-							<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-						</div>
-					</div>
+					<h5 class="mb-3">Pemeriksaan Kualitas</h5>
+
 				</div>
-				<!-- End Single Blog -->
 			</div>
-			<div class="col-lg-4 col-md-6 col-12">
-				<!-- Single Blog -->
-				<div class="single-news">
-					<div class="news-head">
-						<img src="img/blog3.jpg" alt="#">
+
+			<!-- Dokumen Ekspor -->
+			<div class="col-md-6 col-lg-4">
+				<div class="card service-card h-100 border-0 shadow-sm p-4">
+					<div class="service-icon mb-3">
+						<i class="icofont-file-alt text-danger" style="font-size: 36px;"></i>
 					</div>
-					<div class="news-body">
-						<div class="news-content">
-							<div class="date">05 Jan, 2020</div>
-							<h2><a href="blog-single.html">We provide highly business soliutions.</a></h2>
-							<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-						</div>
-					</div>
+					<h5 class="mb-3">Dokumen Ekspor</h5>
+
 				</div>
-				<!-- End Single Blog -->
+			</div>
+
+
+
+			<!-- Konsultasi Ekspor -->
+			<div class="col-md-6 col-lg-6">
+				<div class="card service-card h-100 border-0 shadow-sm p-4">
+					<div class="service-icon mb-3">
+						<i class="icofont-support text-info" style="font-size: 36px;"></i>
+					</div>
+					<h5 class="mb-3">Konsultasi Ekspor</h5>
+
+				</div>
+			</div>
+
+			<!-- Pengiriman FCL/LCL -->
+			<div class="col-md-6 col-lg-6">
+				<div class="card service-card h-100 border-0 shadow-sm p-4">
+					<div class="service-icon mb-3">
+						<i class="icofont-ship text-dark" style="font-size: 36px;"></i>
+					</div>
+					<h5 class="mb-3">Pengiriman FCL / LCL</h5>
+
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- End Blog Area -->
-
-<!-- Start Why choose -->
-
-<!-- Pricing Table -->
-<section class="pricing-table section">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<h2><?= $this->lang->line('brand_title') ?></h2>
-					<img src="<?= base_url('assets/img/section-img.png') ?>" alt="#">
-					<p><?= $this->lang->line('brand_desc') ?></p>
-					<br>
-					<p>
-						<b><?= $this->lang->line('brand_desc2') ?></b>
-					</p>
-
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<!-- Single Table -->
-			<div class="col-lg-4 col-md-12 col-12">
-				<div class="single-table" style="border-radius: 20px;">
-					<!-- Table Head -->
-					<div class="table-head">
-						<div class="icon">
-							<i class=""><img src="<?= base_url('assets/img/12.jpg') ?>" alt="" style="border-radius: 20px;"></i>
-						</div>
-						<h4 class="title">Bromo</h4>
-						<div class="price">
-							<p class="amount"><span>"Inspire Musicians To The Top"</span></p>
-
-						</div>
-						<div class="col-lg-4 col-md-6 col-12">
-
-						</div>
-					</div>
-					<!-- Table List -->
-					<!-- <ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-								<li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Nullam interdum enim</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Donec ultricies metus</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Pellentesque eget nibh</li>
-							</ul> -->
-					<div class="table-bottom">
-						<a class="btn" target="_blank" href="https://www.bromoguitars.com"><?= $this->lang->line('button_check_website') ?></a>
-					</div>
-					<div class="table-bottom">
-						<a class="btn" target="_blank" href="https://www.bromoguitars.com/contact"><?= $this->lang->line('bromo_distribution') ?></a>
-					</div>
-
-					<!-- Table Bottom -->
-				</div>
-			</div>
-			<!-- End Single Table-->
-			<!-- Single Table -->
-			<div class="col-lg-4 col-md-12 col-12">
-				<div class="single-table" style="border-radius: 20px;">
-					<!-- Table Head -->
-					<div class="table-head">
-						<div class="icon">
-							<i class=""><img src="<?= base_url('assets/img/11.jpg') ?>" alt="" style="border-radius: 20px;"></i>
-						</div>
-						<h4 class="title">Mahalo</h4>
-						<div class="price">
-							<p class="amount"><span>"The World's Most Played Ukulele"</span></p>
-						</div>
-					</div>
-					<!-- Table List -->
-					<!-- <ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-								<li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Nullam interdum enim</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Donec ultricies metus</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Pellentesque eget nibh</li>
-							</ul> -->
-					<div class="table-bottom">
-						<a class="btn" target="_blank" href="https://www.mahaloukuleles.com"><?= $this->lang->line('button_check_website') ?></a>
-
-					</div>
-					<div class="table-bottom">
-						<a class="btn" target="_blank" href="https://mahaloukuleles.com/distributors-2/"><?= $this->lang->line('mahalo_distribution') ?></a>
-					</div>
-					<!-- Table Bottom -->
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-12 col-12">
-				<div class="single-table" style="border-radius: 20px;">
-					<!-- Table Head -->
-					<div class="table-head">
-						<div class="icon">
-							<i class=""><img src="<?= base_url('assets/img/13.jpg') ?>" alt="" style="border-radius: 20px;"></i>
-						</div>
-						<h4 class="title">Valencia</h4>
-						<div class="price">
-							<p class="amount"><span>"Creating Musicians For Over 50 Years"</span></p>
-						</div>
-					</div>
-					<!-- Table List -->
-					<!-- <ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-								<li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Nullam interdum enim</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Donec ultricies metus</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Pellentesque eget nibh</li>
-							</ul> -->
-					<div class="table-bottom">
-						<a class="btn" target="_blank" href="https://www.valenciaguitars.com"><?= $this->lang->line('button_check_website') ?></a>
-
-					</div>
-					<div class="table-bottom">
-						<a class="btn" target="_blank" href="https://valenciaguitars.com/id/distributors/"><?= $this->lang->line('valencia_distribution') ?></a>
-					</div>
-					<!-- Table Bottom -->
-				</div>
-			</div>
-			<!-- End Single Table-->
-		</div>
-	</div>
-</section>
-<!--/ End Pricing Table -->
 
 
 
-<!-- Start Blog Area -->
-<section class="blog section" id="blog">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section- title">
-					<!-- <h2>Our Product</h2> -->
-					<!-- <img src="<?= base_url('assets/img/section-img.png') ?>" alt="#"> -->
-					<h5><?= $this->lang->line('desc_under_brand') ?></h5>
-				</div>
-			</div>
-		</div>
-
-	</div>
-</section>
-<!-- End Blog Area -->
 
 <div id="fun-facts" class="fun-facts section overlay">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-6 col-12">
-				<!-- Start Single Fun -->
-				<div class="single-fun">
-					<i class="icofont icofont-globe"></i>
-					<div class="content">
-						<span class=""><?= $this->lang->line('PE_title') ?></span>
-						<p><?= $this->lang->line('PE_desc') ?></p>
-					</div>
+		<div class="row justify-content-center text-center mb-4">
+			<div class="col-lg-8">
+				<div class="mb-3">
+					<i class="icofont-globe" style="font-size: 48px;color: white;"></i>
 				</div>
-				<!-- End Single Fun -->
+				<h2 style="color: white;" class="fw-bold">Pasar Ekspor Kami</h2>
+				<p style="color: white;" class="text">Kami telah menjangkau berbagai negara tujuan ekspor yang tersebar di beberapa kawasan dunia.</p>
 			</div>
+		</div>
 
-
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item border-0 ps-0 pb-2">
+						🌍 <strong>Timur Tengah:</strong> UAE, Arab Saudi
+					</li>
+					<li class="list-group-item border-0 ps-0 pb-2">
+						🌏 <strong>Asia Tenggara:</strong> Inter Asia
+					</li>
+					<li class="list-group-item border-0 ps-0 pb-2">
+						🌍 <strong>Eropa:</strong> Belanda, Jerman, Italia
+					</li>
+					<li class="list-group-item border-0 ps-0 pb-2">
+						🌎 <strong>Amerika & Afrika:</strong> Sesuai permintaan
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
+
 </div>
 
 <section class="blog section" id="blog">
@@ -565,68 +267,62 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section-title">
-					<h2><?= $this->lang->line('contact_title') ?></h2>
-					<img src="<?= base_url('assets/img/section-img.png') ?>" alt="#">
+					<h2>Hubungi Kami</h2>
 					<p><?= $this->lang->line('contact_desc') ?></p>
-
-
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<section class="contact-quick-info py-5 bg-light">
+		<div class="container">
+			<div class="row gy-4 text-center">
 
-</section>
-
-<section class="schedule">
-	<div class="container">
-		<div class="schedule-inner">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-12 ">
-					<div class="single-schedule first">
-						<div class="inner">
-							<div class="icon">
-								<i class="fa fa-phone"></i>
-							</div>
-							<div class="single-content">
-								<h4>(0343) 4505082</h4>
-								<br><br><br><br>
-								<!-- <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a> -->
-							</div>
+				<!-- WhatsApp / Telepon -->
+				<div class="col-md-4">
+					<div class="contact-box p-4 bg-white shadow-sm rounded h-100">
+						<div class="mb-3 text-primary">
+							<i class="fa fa-phone fa-2x"></i>
 						</div>
+						<h6 class="fw-bold text-dark">Hubungi Kami</h6>
+						<p class="text-muted small mb-1">+62 851-6355-1120</p>
+						<p class="text-muted small mb-1">+62 812-3244-9619</p>
+						<p class="text-muted small">+62 857-5873-7308</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-12 ">
-					<div class="single-schedule first">
-						<div class="inner">
-							<div class="icon">
-								<i class="fa fa-address-book"></i>
-							</div>
-							<div class="single-content">
-								<h4>Sales@bromoguitars.com</h4>
 
-								<br><br><br><br>
-								<!-- <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a> -->
-							</div>
+				<!-- Email -->
+				<div class="col-md-4">
+					<div class="contact-box p-4 bg-white shadow-sm rounded h-100">
+						<div class="mb-3 text-success">
+							<i class="fa fa-envelope fa-2x"></i>
 						</div>
+						<h6 class="fw-bold text-dark">Email</h6>
+						<p class="text-muted small">info@tba.com</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-12">
-					<div class="single-schedule middle">
-						<div class="inner">
-							<div class="icon">
-								<i class="icofont-map"></i>
-							</div>
-							<div class="single-content">
-								<h4>Jl. Rembang Industri Raya No.45, Jati, Pandean, Kec. Rembang, Pasuruan, <?= $this->lang->line('alamat') ?> 67152</h4>
-								<!-- <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a> -->
-							</div>
+
+				<!-- Alamat -->
+				<div class="col-md-4">
+					<div class="contact-box p-4 bg-white shadow-sm rounded h-100">
+						<div class="mb-3 text-danger">
+							<i class="fa fa-map-marker fa-2x"></i>
 						</div>
+						<h6 class="fw-bold text-dark">Alamat Kantor</h6>
+						<p class="text-muted small">
+							Perumahan Grianan Agung Blok C5-07,<br>
+							Randuagung, Singosari, Kab. Malang 65153
+						</p>
 					</div>
 				</div>
 
 			</div>
 		</div>
-	</div>
+	</section>
+
+
 </section>
+
+
+
 <!-- End Blog Area -->
