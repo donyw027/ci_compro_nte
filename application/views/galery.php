@@ -9,11 +9,7 @@
 			<div class="row">
 				<div class="col-12">
 					<h2>Galery</h2>
-					<ul class="bread-list">
-						<li><a href="<?= site_url('home') ?>"><?= $this->lang->line('home') ?></a></li>
-						<li><i class="icofont-simple-right"></i></li>
-						<li class="active">Galery</li>
-					</ul>
+
 				</div>
 			</div>
 		</div>

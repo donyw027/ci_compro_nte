@@ -3,12 +3,8 @@
 		<div class="bread-inner">
 			<div class="row">
 				<div class="col-12">
-					<h2>Layanan Kami</h2>
-					<ul class="bread-list">
-						<li><a href="<?= site_url('home') ?>">Layanan</a></li>
-						<li><i class="icofont-simple-right"></i></li>
-						<li class="active">Layanan</li>
-					</ul>
+					<h2>Layanan</h2>
+
 				</div>
 			</div>
 		</div>

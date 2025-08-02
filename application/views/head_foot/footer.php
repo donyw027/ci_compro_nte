@@ -14,7 +14,8 @@
 				<div class="col-lg-4 col-md-6 col-6">
 					<div class="single-footer">
 						<h2><?= $this->lang->line('f_about_title') ?></h2>
-						<p>Perusahaan trading ekspor yang berbasis di Indonesia, yang bergerak dalam perdagangan komoditas unggulan Indonesia ke pasar internasional.</p>
+						<p>Perusahaan trading ekspor yang berbasis di Indonesia, yang bergerak dalam perdagangan komoditas unggulan Indonesia ke pasar internasional. <br><br>
+							EMPOWERING THE WORLD WITH THE BEST OF NUSANTARA</p>
 						<!-- Social -->
 						<ul class="social">
 							<li><a href=""><i class="icofont-facebook"></i></a></li>
@@ -118,7 +119,9 @@
 
 
 
-
+<a href="https://wa.me/6285163551120" class="wa-float-btn" target="_blank" aria-label="Chat WhatsApp">
+	<i class="fab fa-whatsapp"></i>
+</a>
 
 
 </body>

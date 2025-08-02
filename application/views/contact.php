@@ -3,12 +3,8 @@
 		<div class="bread-inner">
 			<div class="row">
 				<div class="col-12">
-					<h2><?= $this->lang->line('contact_title') ?></h2>
-					<ul class="bread-list">
-						<li><a href="<?= site_url('home') ?>"><?= $this->lang->line('home') ?></a></li>
-						<li><i class="icofont-simple-right"></i></li>
-						<li class="active"><?= $this->lang->line('contact') ?></li>
-					</ul>
+					<h2>Kontak</h2>
+
 				</div>
 			</div>
 		</div>

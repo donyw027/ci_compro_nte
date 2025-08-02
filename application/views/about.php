@@ -4,11 +4,7 @@
 			<div class="row">
 				<div class="col-12">
 					<h2><?= $this->lang->line('about_title') ?></h2>
-					<ul class="bread-list">
-						<li><a href="<?= site_url('home') ?>"><?= $this->lang->line('home') ?></a></li>
-						<li><i class="icofont-simple-right"></i></li>
-						<li class="active"><?= $this->lang->line('about') ?></li>
-					</ul>
+
 				</div>
 			</div>
 		</div>
@@ -49,6 +45,14 @@
 <section class="visimisi-section py-5 bg-light">
 	<div class="container">
 		<div class="row gy-4">
+
+			<div class="col-md-12">
+				<div class="icon-box shadow-sm p-4 h-100 bg-white rounded">
+
+					<h2 class="text-center text-uppercase fw-bold">" EMPOWERING THE WORLD WITH THE BEST OF NUSANTARA "</h2>
+
+				</div>
+			</div>
 			<!-- Visi -->
 			<div class="col-md-6">
 				<div class="icon-box shadow-sm p-4 h-100 bg-white rounded">
